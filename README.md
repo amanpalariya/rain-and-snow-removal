@@ -29,3 +29,24 @@ process_file(path_to_input_file>, path_to_output_file, angle_in_radians)
 This will create 2 videos - one with cleaned sequence, other with detected rain/snow.
 
 For more details, see `src/example.ipynb`.
+
+## Examples
+
+## Rain generation
+
+- 300×200, 60°
+
+  <img src="images/rain60.jpg" height=200/>
+
+- 300×200, 90°
+
+  <img src="images/rain90.jpg" height=200/>
+
+## Detection and removal
+
+The leftmost image is the original, the middle one is cleaned and the rightmost is the detected rain/snow.
+
+![](images/building-result.jpg)
+![](images/pedestrian-result.jpg)
+![](images/sitting-man-result.jpg)
+![](images/snowybox-result.jpg)
